@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/section_item_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/section_item_text"
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.9"
+        android:layout_marginStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="9dp"
+        android:paddingBottom="12dp"
+        android:textColor="?android:textColorTertiary"
+        android:textSize="16sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
